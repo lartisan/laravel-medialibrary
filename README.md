@@ -1,5 +1,12 @@
 <p align="center"><img src="art/lartisan_logo.png" width="300" height="45"></p>
 
+<p align="center">
+<a href="https://packagist.org/packages/lartisan/laravel-sortable-medialibrary"><img src="https://poser.pugx.org/lartisan/laravel-sortable-medialibrary/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/lartisan/laravel-sortable-medialibrary"><img src="https://poser.pugx.org/lartisan/laravel-sortable-medialibrary/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/lartisan/laravel-sortable-medialibrary"><img src="https://poser.pugx.org/lartisan/laravel-sortable-medialibrary/license.svg" alt="License"></a>
+</p>
+<hr>
+
 # Changes to the original package
 
 This forked package eliminates the **IsSorted** Trait from `Spatie\MediaLibrary\MediaCollections\Models\Media`, so the sorting/ordering part could be made by [spatie/eloquent-sortable](https://github.com/spatie/eloquent-sortable).
