@@ -1,23 +1,28 @@
 {
-    "name": "spatie/laravel-medialibrary",
-    "description": "Associate files with Eloquent models",
+    "name": "lartisan/laravel-sortable-medialibrary",
+    "description": "Associate files with Eloquent models and add Sortable behaviour",
     "keywords": [
         "spatie",
+        "lartisan",
         "laravel-medialibrary",
+        "eloquent-sortable",
         "media",
         "conversion",
         "images",
         "downloads",
         "cms",
-        "laravel"
+        "laravel",
+        "eloquent",
+        "sortable",
+        "behaviour"
     ],
-    "homepage": "https://github.com/spatie/laravel-medialibrary",
+    "homepage": "https://github.com/lartisan/laravel-medialibrary",
     "license": "MIT",
     "authors": [
         {
-            "name": "Freek Van der Herten",
-            "email": "freek@spatie.be",
-            "homepage": "https://spatie.be",
+            "name": "Cristian Iosif",
+            "email": "cristianiosif@me.com",
+            "homepage": "https://lartisan.dev",
             "role": "Developer"
         }
     ],
@@ -34,6 +39,7 @@
         "league/flysystem": "^1.0.64",
         "maennchen/zipstream-php": "^1.0|^2.0",
         "spatie/image": "^1.4.0",
+        "spatie/eloquent-sortable": "^3.11",
         "spatie/temporary-directory": "^1.1",
         "symfony/console": "^4.4|^5.0"
     },

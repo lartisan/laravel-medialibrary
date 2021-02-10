@@ -20,7 +20,6 @@ use Spatie\MediaLibrary\MediaCollections\HtmlableMedia;
 use Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection;
 use Spatie\MediaLibrary\MediaCollections\Models\Concerns\CustomMediaProperties;
 use Spatie\MediaLibrary\MediaCollections\Models\Concerns\HasUuid;
-use Spatie\MediaLibrary\MediaCollections\Models\Concerns\IsSorted;
 use Spatie\MediaLibrary\ResponsiveImages\RegisteredResponsiveImages;
 use Spatie\MediaLibrary\Support\File;
 use Spatie\MediaLibrary\Support\MediaLibraryPro;
@@ -30,8 +29,7 @@ use Spatie\MediaLibraryPro\Models\TemporaryUpload;
 
 class Media extends Model implements Responsable, Htmlable
 {
-    use IsSorted,
-        CustomMediaProperties,
+    use CustomMediaProperties,
         HasUuid;
 
     protected $table = 'media';
